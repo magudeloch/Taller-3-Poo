@@ -1,5 +1,4 @@
-# Actividad - Interfaces Gráficas y Gestión de Eventos en Python (Capítulo 8)
-
+# Actividad - Interfaces Gráficas y Gestión de Eventos en Python
 ## 📚 Información académica
 
 - **Universidad:** Universidad Nacional de Colombia
