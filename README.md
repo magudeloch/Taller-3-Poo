@@ -19,8 +19,9 @@
 
 
 
-%%{init: {'theme': 'base', 'themeVariables': { 'background': '#ffffff', 'primaryTextColor': '#000000', 'primaryColor': '#f0f0f0', 'lineColor': '#000000'}}}%%
 classDiagram
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+
     class Notas {
         -lista_notas : list~float~
         +calcular_promedio() float
