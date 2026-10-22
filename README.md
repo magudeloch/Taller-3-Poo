@@ -18,23 +18,4 @@
 | **Ejercicio 8.3** | **Gestión de eventos:** Creación de una jerarquía de clases geométricas (Cilindro, Esfera, Pirámide) y desarrollo de una interfaz gráfica estructurada en pestañas para calcular el volumen y la superficie de cada figura basándose en los eventos de interacción del usuario. |
 
 
-
-classDiagram
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-
-    class Notas {
-        -lista_notas : list~float~
-        +calcular_promedio() float
-        +calcular_desviacion() float
-        +calcular_mayor() float
-        +calcular_menor() float
-    }
-
-    class VentanaPrincipal {
-        -campos_notas : list
-        +crear_componentes()
-        +realizar_calculos()
-        +limpiar_campos()
-    }
-
-    VentanaPrincipal ..> Notas : Instancia
+![Diagrama Ejercicio 8.2](https://mermaid.ink/img/eyJjb2RlIjogImNsYXNzRGlhZ3JhbVxuICAgIGNsYXNzIE5vdGFzIHtcbiAgICAgICAgLWxpc3RhX25vdGFzIDogbGlzdH5mbG9hdH5cbiAgICAgICAgK2NhbGN1bGFyX3Byb21lZGlvKCkgZmxvYXRcbiAgICAgICAgK2NhbGN1bGFyX2Rlc3ZpYWNpb24oKSBmbG9hdFxuICAgICAgICArY2FsY3VsYXJfbWF5b3IoKSBmbG9hdFxuICAgICAgICArY2FsY3VsYXJfbWVub3IoKSBmbG9hdFxuICAgIH1cbiAgICBjbGFzcyBWZW50YW5hUHJpbmNpcGFsIHtcbiAgICAgICAgLWNhbXBvc19ub3RhcyA6IGxpc3RcbiAgICAgICAgK2NyZWFyX2NvbXBvbmVudGVzKClcbiAgICAgICAgK3JlYWxpemFyX2NhbGN1bG9zKClcbiAgICAgICAgK2xpbXBpYXJfY2FtcG9zKClcbiAgICB9XG4gICAgVmVudGFuYVByaW5jaXBhbCAuLj4gTm90YXMgOiBJbnN0YW5jaWEiLCAibWVybWFpZCI6IHsidGhlbWUiOiAiZGVmYXVsdCJ9fQ==?bgColor=FFFFFF)
